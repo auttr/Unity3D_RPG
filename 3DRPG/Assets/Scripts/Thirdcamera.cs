@@ -21,6 +21,7 @@ namespace auttr
         Vector3 direction;
         Transform tracamera;
         string paraRun = "跑路走步";
+        string paraJump = "跳觸發";
         #endregion
 
         #region 事件
@@ -83,6 +84,7 @@ namespace auttr
             if(controller.isGrounded && Input.GetKeyDown(KeyCode.Space))
             {
                 direction.y = jump;
+                ani.SetTrigger(paraJump);
               
             }
             direction.y += Physics.gravity.y * Time.deltaTime;
