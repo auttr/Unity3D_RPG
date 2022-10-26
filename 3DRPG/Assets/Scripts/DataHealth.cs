@@ -1,4 +1,6 @@
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using UnityEngine;
 namespace aa
 {
@@ -19,7 +21,7 @@ namespace aa
         [HideInInspector, Header("Ä_ª«±¼¸¨²v"), Range(0.0f, 1.0f)]
         public float propProbability;
     }
-
+#if UNITY_EDITOR
     [CustomEditor(typeof (DataHealth))]
     public class DataHealthEditor:Editor
     {
@@ -44,5 +46,5 @@ namespace aa
             serializedObject.ApplyModifiedProperties();
         }
     }
-
+#endif
 }

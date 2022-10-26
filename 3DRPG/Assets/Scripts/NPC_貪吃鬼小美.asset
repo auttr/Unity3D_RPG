@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b88cf77729b7fd49b5d7c7264ed275b, type: 3}
+  m_Name: "NPC_\u8CAA\u5403\u9B3C\u5C0F\u7F8E"
+  m_EditorClassIdentifier: 
+  npcname: "\u8CAA\u5403\u9B3C\u5C0F\u7F8E"
+  npcDailogue:
+  - npccontent: "\u55E8\u55E8\uFF0C\u6211\u662F\u8CAA\u5403\u9B3C\u5C0F\u7F8E"
+    sound: {fileID: 8300000, guid: 61fa27b2c9f68475d948a8e984723357, type: 3}
+  - npccontent: "\u6211\u73FE\u5728\u5F88\u9913\uFF0C\u5CA9\u6F3F\u5340\u6709\u5F88\u591A\u72D7"
+    sound: {fileID: 8300000, guid: df990db31c202452c93595fcc82c744b, type: 3}
+  - npccontent: "\u5E6B\u6211\u5E79\u6389\u4ED6\u5011\u62FF5\u500B\u8089\u6392\u56DE\u4F86\u5427!"
+    sound: {fileID: 8300000, guid: 17a64018f41d043169872a142113c3dc, type: 3}

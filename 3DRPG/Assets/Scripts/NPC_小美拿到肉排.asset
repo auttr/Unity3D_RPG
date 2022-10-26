@@ -10,13 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b88cf77729b7fd49b5d7c7264ed275b, type: 3}
-  m_Name: "\u554A\u554A\u554A"
+  m_Name: "NPC_\u5C0F\u7F8E\u62FF\u5230\u8089\u6392"
   m_EditorClassIdentifier: 
-  npcname: "\u554A\u554A\u554A"
+  npcname: "\u8CAA\u5403\u9B3C\u5C0F\u7F8E"
   npcDailogue:
-  - npccontent: 111111
-    sound: {fileID: 8300000, guid: 61fa27b2c9f68475d948a8e984723357, type: 3}
-  - npccontent: 2222222
-    sound: {fileID: 8300000, guid: df990db31c202452c93595fcc82c744b, type: 3}
-  - npccontent: 3333333
+  - npccontent: "\u8B1D\u8B1D\u4F60\uFF0C\u8089\u6392\u5F88\u597D\u5403"
     sound: {fileID: 8300000, guid: 17a64018f41d043169872a142113c3dc, type: 3}

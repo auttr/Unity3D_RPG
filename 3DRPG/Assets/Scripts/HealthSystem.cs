@@ -9,12 +9,12 @@ namespace aa
     /// </summary>
     public class HealthSystem : MonoBehaviour
     {
-       
-        public DataHealth dataHealth;
+        [SerializeField,Header("血量資料")]
+        protected DataHealth dataHealth;
         [SerializeField, Header("血條")]
-        Image imgHealth;
+        protected Image imgHealth;
 
-        float hp;
+        protected float hp;
         Animator ani;
         string paraHurt = "痛觸發";
         string paraDead = "死開關";

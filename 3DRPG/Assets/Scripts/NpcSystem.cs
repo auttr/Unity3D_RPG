@@ -9,7 +9,7 @@ namespace aa
         // Start is called before the first frame update
         Animator aniTip;
         [SerializeField, Header("NpcData")]
-        DataNPC npcData;
+       public DataNPC npcData;
         [SerializeField, Header("NpcCamera")]
        GameObject gocamera;
         bool isintrigger;

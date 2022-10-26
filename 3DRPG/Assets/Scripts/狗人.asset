@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826421fc1f7af3a45a64eb48d263d635, type: 3}
   m_Name: "\u72D7\u4EBA"
   m_EditorClassIdentifier: 
-  HP: 1000
+  HP: 10
   ATK: 50
-  speedWalk: 4
+  speedWalk: 3
   rangeTrace: 15
   rangeAtk: 2.5
   probabilityProp: 0.592
